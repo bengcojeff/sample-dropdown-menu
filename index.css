@@ -1,0 +1,74 @@
+.main {
+    /* border: 1px solid black; */
+    width:40%;
+    margin: 0 auto;
+}
+
+.main ul {
+    display:flex;
+    list-style-type: none;
+}
+.main li {
+  width:20%;
+}
+
+span {
+    display:block;
+    text-align:center;
+    border:1px solid black;
+}
+
+/* first sub menu */
+.sub-menu-1 {
+    width:100%
+}
+
+.sub-menu-1 ul{
+    display:block;
+    padding-left:0;
+}
+
+.sub-menu-1 li {
+    width:100%;
+}
+
+
+/* FIRST SUB MENU */
+.sub-menu-1 {
+    display:none;
+}
+
+/* SECOND SUB MENU */
+.sub-menu-2, 
+.sub-menu-3, 
+.sub-menu-4 {
+    display:none;
+    position: absolute;
+    margin-left: 106px;
+    margin-top: -21px;
+    width: 105px;
+}
+
+/* HOVER TO APPEAR*/
+
+.main ul li:hover .sub-menu-1, 
+.sub-menu-1 ul li:hover .sub-menu-2, 
+.sub-menu-2 ul li:hover .sub-menu-3, 
+.sub-menu-3 ul li:hover .sub-menu-4 {
+    display:block;
+}
+
+/* COLOR WHEN HOVER */
+.hover-1:hover {
+    background-color:red;
+}
+.hover-2:hover {
+    background-color:green;
+}
+.hover-3:hover {
+    background-color:blue;
+}
+.hover-4:hover {
+    background-color:yellow;
+}
+
